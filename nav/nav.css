@@ -1,0 +1,34 @@
+nav #header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+nav #header a{
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}

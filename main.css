@@ -1,0 +1,54 @@
+body {
+    background-image: url("/images/background.jpg");
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+.main-body {
+    background-color: white;
+    border-radius: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+@media screen and (min-width: 800px) {
+    .main-body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.main-body h1,h2,h3{
+    text-align: center;
+    margin: 0px;
+}
+
+.main-body h1{
+    margin-bottom: 5%;
+}
+
+.main-body div {
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%
+}
+
+.main-body div h2 {
+    border-bottom: solid black;
+    border-width: 1px;
+}
+
+footer {
+    float: right;
+    color: white;
+}
+
+#homeMap{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border: solid black;
+    width: 50%;
+}

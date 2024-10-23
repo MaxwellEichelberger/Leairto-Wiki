@@ -6,23 +6,24 @@
 }
 
 .mainCampaigns > div {
-    width: 150px;
-    height: 150px;
+    width: 30%;
     margin-right: 2%;
     margin-left: 2%;
     margin-top: 5%;
 }
 
 .mainCampaigns img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
     border-radius: 5%;
-    border: solid black;
     margin-bottom: 10%;
+    border: solid black;
 }
 
 .mainCampaigns a {
     text-decoration: none;
+}
+.mainCampaigns h3 {
+    font-size: 200%;
     color: black;
 }
 
@@ -34,21 +35,22 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    border: solid black;
     margin-bottom: 2%;
+    text-align: center;
 }
 
-.partyPicInfo {
-    display: flex;
-    justify-content: center;
+.partyPic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    width: 90%;
+    border: solid black;
+}
+
+#partyPicInfo {
+    display: block;
     font-style: italic;
-}
-
-.partyInfo {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
 }
 
 .partyInfo ul {
@@ -66,4 +68,20 @@
 .partyInfo h3 {
     border-bottom: solid black;
     margin-bottom: 3%;
+}
+
+@media screen and (min-width: 1000px) {
+    .mainCampaigns h3 {
+        font-size: 100%;
+    }
+
+    .partyPic img{
+        width: 30%;
+    }
+
+    .partyInfo {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 }

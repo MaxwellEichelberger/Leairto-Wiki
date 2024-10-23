@@ -9,15 +9,11 @@ body {
     border-radius: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-right: -2%;
+    margin-left: -2%
     
 }
 
-@media screen and (min-width: 800px) {
-    .main-body {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-}
 
 .main-body h1,h2,h3{
     text-align: center;
@@ -51,4 +47,53 @@ footer {
     margin-bottom: 20px;
     border: solid black;
     width: 50%;
+}
+
+.currentCampaigns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0px;
+}
+
+.currentCampaigns > div {
+    width: 150px;
+    height: 150px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.currentCampaigns img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    border: solid black;
+    margin-bottom: 10%;
+}
+
+.currentCampaigns a {
+    text-decoration: none;
+    color: black;
+}
+
+.changelog {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0px;
+}
+
+#changelogDate {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .main-body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
 }

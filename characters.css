@@ -1,8 +1,7 @@
 .character {
-    position: inline-block;
-    float: right;
+    display: block;
     background-color: white;
-    width: 20%;
+    border-top: solid black;
     border-right: solid black;
     border-left:solid black;
     border-bottom: solid black;
@@ -19,6 +18,10 @@
     margin: 0;
 }
 
+#char-name {
+    visibility: hidden;
+}
+
 .character h2 {
     position: inline-block;
     padding-top: 3%;
@@ -26,7 +29,6 @@
     background-color: grey;
     text-align: center;
     margin: 0%;
-    border-top: solid black;
     border-width: 1px;
 }
 
@@ -54,21 +56,23 @@
 }
 
 .pc > div {
-    width: 150px;
-    height: 150px;
+    width: 30%;
     margin-right: 2%;
     margin-left: 2%;
     margin-top: 5%;
 }
 
 .pc img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
     border-radius: 5%;
     margin-bottom: 10%;
 }
 .pc a {
     text-decoration: none;
+}
+
+.pc h3 {
+    font-size: 200%;
     color: black;
 }
 
@@ -77,14 +81,11 @@
 }
 
 .imageCollection {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     gap: 0px;
 }
 
 .imageCollection > div {
-    width: 20%;
+    width: 30%;
     margin-top: 5%;
 }
 
@@ -93,37 +94,63 @@
     border-radius: 5%;
     border: solid black;
     margin-bottom: 0%;
+    padding: 1%;
 }
 
 .imageCollection p{
     font-style: italic;
-    font-size: 70%;
+    font-size: 200%;
 }
 
 
 .spellStats {
-    display: flex;
     margin-top: 0%;
     margin-bottom: 0%;
 }
+
+@media screen and (min-width: 1000px) {
+    .spells > div {
+        display: inline-block;
+    }
+
+    .spellStats > div{
+        display: inline-block;
+    }
+
+    .imageCollection > div {
+        width: 20%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .imageCollection p{
+        font-style: italic;
+        font-size: 90%;
+    }
+
+    .character {
+        position: inline-block;
+        float: right;
+        width: 20%;
+    }
+
+    #char-name {
+        visibility:visible;
+    }
+
+    .pc h3 {
+        font-size: 100%;
+    }
+
+    .pc > div {
+        width: 20%;
+    }
+}
+
 
 .spellStats > div {
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
-.spells {
-    display: flex;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
-.spells > div {
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
-.spells h5{
-    margin-top: 0%;
-    margin-bottom: 0%;
-}

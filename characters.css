@@ -35,6 +35,8 @@
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 #pic-desc {
@@ -63,6 +65,7 @@
     width: 150px;
     height: 150px;
     border-radius: 5%;
+    margin-bottom: 10%;
 }
 .pc a {
     text-decoration: none;
@@ -89,9 +92,38 @@
     width: 100%;
     border-radius: 5%;
     border: solid black;
+    margin-bottom: 0%;
 }
 
 .imageCollection p{
     font-style: italic;
     font-size: 70%;
+}
+
+
+.spellStats {
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.spellStats > div {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.spells {
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.spells > div {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.spells h5{
+    margin-top: 0%;
+    margin-bottom: 0%;
 }

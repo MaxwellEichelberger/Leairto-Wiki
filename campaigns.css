@@ -18,7 +18,9 @@
     height: 150px;
     border-radius: 5%;
     border: solid black;
+    margin-bottom: 10%;
 }
+
 .mainCampaigns a {
     text-decoration: none;
     color: black;

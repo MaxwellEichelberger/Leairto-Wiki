@@ -1,14 +1,3 @@
-nav #header {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-}
-
-
-nav #header a{
-    text-decoration: none;
-    color: black;
-}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -28,34 +17,28 @@ nav li a {
     margin-right: 10px;
     margin-left: 10px;
     text-decoration: none;
+    font-size: 150%;
 }
 
 nav li a:hover {
     background-color: #111;
 }
 
-@media screen and (max-width: 1000px) {
-    nav li a{
-        text-size-adjust: 200%;
-        margin-right: 50px;
-        margin-left: 50px;
-        }
-
+nav img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    margin-top: -20px;
 }
 
 @media screen and (min-width: 1001px) {
     nav li a{
-        text-size-adjust: 100%;
-        margin-right: 0px;
+        font-size: 100%;
         }
     
     nav img {
-        width: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: -20px;
-        margin-top: -20px;
         }
         
 }

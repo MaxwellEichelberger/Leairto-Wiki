@@ -17,14 +17,27 @@
     border-radius: 5%;
     margin-bottom: 10%;
     border: solid black;
+    margin-bottom: 0;
 }
 
 .mainCampaigns a {
     text-decoration: none;
 }
+
 .mainCampaigns h3 {
-    font-size: 200%;
+    margin: 0;
+    font-size: 100%;
     color: black;
+}
+
+.mainCampaigns h5 {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.oneShots ul{
+    list-style-type: none;
 }
 
 .main-body .storyArcs h3{

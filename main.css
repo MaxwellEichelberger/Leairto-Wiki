@@ -20,6 +20,9 @@ body {
     margin: 0px;
 }
 
+.main-body h5{
+    margin: 0;
+}
 .main-body h1{
     margin-bottom: 5%;
 }
@@ -50,6 +53,7 @@ footer {
 }
 
 .currentCampaigns {
+    margin-top: 0;;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -65,6 +69,7 @@ footer {
 }
 
 .currentCampaigns img {
+    margin-top: 0;
     width: 150px;
     height: 150px;
     border-radius: 5%;
@@ -77,6 +82,9 @@ footer {
     color: black;
 }
 
+.currentCampaigns a h5 {
+    text-align: center;
+}
 .changelog {
     display: flex;
     flex-flow: row wrap;

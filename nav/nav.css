@@ -17,7 +17,7 @@ nav li a {
     margin-right: 10px;
     margin-left: 10px;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 250%;
 }
 
 nav li a:hover {
@@ -25,7 +25,7 @@ nav li a:hover {
 }
 
 nav img {
-    width: 30%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,6 +39,7 @@ nav img {
         }
     
     nav img {
+        width: 30%;
         }
         
 }

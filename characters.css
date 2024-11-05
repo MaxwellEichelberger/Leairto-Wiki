@@ -4,7 +4,7 @@
 }
 
 .bio p {
-    font-size: 80%;
+    font-size: 150%;
     margin: 0;
 }
 
@@ -43,6 +43,7 @@
 }
 
 #pic-desc {
+    font-size: 150%;
     text-align: center;
     font-style: italic;
 }
@@ -152,6 +153,14 @@
 
     .characterInfo > div {
         width: 100%;
+    }
+
+    .bio p {
+        font-size: 80%;
+    }
+
+    #pic-desc {
+        font-size: 100%;
     }
 }
 
